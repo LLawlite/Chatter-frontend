@@ -94,7 +94,7 @@ const SignUp = () => {
         },
       };
       const { data } = await axios.post(
-        '/api/user',
+        'https://chatter-upg4.onrender.com/api/user',
         {
           name,
           email,
